@@ -7,15 +7,23 @@
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-	
-</body>
-	<script src="./js/app.js"></script>
-	<a href="" id="x-data"><img  src="img/x-data.png" alt=""></a>
 	<section class="s1">
+		<a id="x-data"><img  src="img/x-data.png" alt=""></a>
+		<!-- Encabezado -->
 		<div class="header">
 			<h1>Comida Mexicana </h1>
-			<h2>patrimonio de la humanidad - unesco 2011</h2>
+			<div class="wrapper">
+			    <div class="typing-demo">
+			    	<h2>patrimonio de la humanidad - unesco 2011</h2>
+			    </div>
+			</div>
+			
 		</div>
+		<!-- flecha -->
+		<a class="ir-abajo" id="s1-ir-abajo">
+			<img src="img/abajo.png" alt="">
+		</a>
+		<!-- Hojas cayendo -->
 		<div class="hojas">
 			<div class="hoja">
 				<img src="./img/hoja-verde.png" alt="">
@@ -37,8 +45,47 @@
 			</div>
 			
 		</div>
+		<!-- Flor de fondo -->
 		<div class="flor1">
 			<img src="./img/flor1.png" alt="">
 		</div>
+		<!-- Imagen principal -->
+		<div class="s1-corona">
+			<img class="corona corona-fondo" src="img/corona-p.png" alt="">
+			<img src="img/p_top.png" alt="" class="corona-fondo corona-entra corona-arriba">
+			<img src="img/p_der.png" alt="" class="corona-fondo corona-entra corona-derecha">
+			<img src="img/p_izq.png" alt="" class="corona-fondo corona-entra corona-izquierda">
+			<img src="img/p_abajo.png" alt="" class="corona-fondo corona-entra corona-abajo">
+			<button>
+				<img class="corona-boton corona-entra corona-maiz" src="img/maiz.png" alt="">
+			</button>
+			<button>
+				<img class="corona-boton corona-entra corona-pepitoria" src="img/pepitoria.png" alt="">
+			</button>
+			<button>
+				<img class="corona-boton corona-entra corona-sopita" src="img/sopita.png" alt="">
+			</button>
+			<button>
+				<img class="corona-boton corona-entra corona-chile" src="img/chile.png" id="boton-chile" alt="">
+			</button>
+			<button>
+				<img class="corona-boton corona-entra corona-jarron" src="img/jarron.png" alt="">
+			</button>
+
+		</div>
+		<!-- Texto -->
+		<p><b>Texto introductorio que describa brevemente el proyecto y las visualizaciones. </b>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+
 	</section>
+	<section class="s2" id="s2">
+		<p class="p-maiz">Aquí un Lorem Impsum de un mito prehispánico acerca del maíz. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>	
+	</section>
+	<!-- <section class="s3" id="s2">
+		<p>Aquí un Lorem Impsum de un mito prehispánico acerca del maíz. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>	
+	</section> -->
+	
+</body>
+	<script src="https://unpkg.com/scrollreveal"></script>
+	<script src="js/jquery.js"></script>
+	<script src="./js/app.js"></script>
 </html>

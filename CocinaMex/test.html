@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Comida Mexicana</title>
+	<link rel="stylesheet" href="css/styles.css">
+		<script src="js/jquery.js"></script>
+		<script src="https://unpkg.com/scrollreveal"></script>
+	<!-- <script src="./js/app.js"></script> -->
+</head>
+<body>
+	<style>
+		body{
+			min-height: 200vh;
+		}
+	</style>
+	<section>
+	  <h1>Flip</h1>
+	  <img class="flip" src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ" alt="kitten">
+	</section>
+
+	<script>
+		ScrollReveal({ reset: true });
+
+		ScrollReveal().reveal(".show-once", {
+		  reset: false
+		});
+
+		ScrollReveal().reveal(".flip", {
+		  delay: 500,
+		  duration: 2000,
+		  rotate: {
+		    x: 20,
+		    z: 20
+		  }
+		});
+	</script>
+	
+</body>
+
+</html>
